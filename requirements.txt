@@ -7,3 +7,7 @@ tensorboard
 terminaltables
 pillow
 tqdm
+scikit-build
+opencv-python
+opencv-contrib-python
+
