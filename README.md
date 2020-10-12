@@ -44,6 +44,9 @@ Uses pretrained weights to make predictions on images. Below table displays the 
 <p align="center"><img src="assets/traffic.png" width="480"\></p>
 <p align="center"><img src="assets/messi.png" width="480"\></p>
 
+Replace `<video-name.mp4>` with your own video. Format of video should be mp4.
+    $ python3 detect_video.py --video_path data/video/<video-name.mp4>
+
 ## Train
 ```
 $ train.py [-h] [--epochs EPOCHS] [--batch_size BATCH_SIZE]
